@@ -1,0 +1,16 @@
+﻿@model tiposCuentas
+@{
+
+}
+
+<h1>TiposCuentas</h1>
+
+<form asp-action="Crear" asp-controller="TiposCuenta" >
+
+    <div class="mb-3">
+        <label for="nombre" class="col-form-label">Nombre</label>
+        <input type="Text" id="nombre" class="form-control" name="nombre" />
+
+    </div>
+    <button class="btn btn-primary">Enviar</button>    
+</form>
